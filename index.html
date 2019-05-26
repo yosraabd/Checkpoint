@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="css\style.css">
+<script src ="js/main.js">
+</script>
+    <head>
+    <body>
+        <h1> Checkpoint3</h1>
+            
+        <button id="bold" onclick="bold()" >B</button>
+        <button id="italic" onclick="italic ()">i</button>
+        <button id= "und" onclick="underlined ()">U</button>
+        <select name="size" id="size" onchange="applysize()">
+<option value= "10pt" selected> 10pt </option>
+<option value= "12pt" > 12 </option>
+<option value= "14pt" > 14 </option>
+<option value= "16pt" > 16 </option>
+<option value= "18pt" > 18 </option>
+<option value= "20pt" > 20 </option>
+<option value= "22pt" > 22 </option>
+        </select>
+        <select name="font" id="font" onchange="applyfont()">
+                
+            <option value= "Arial" selected> Arial </option>
+                <option value= "Verdana" > verdana </option>
+                <option value= "Times New Roman" > Times New Roman</option>
+                <option value= "Courier New" > Courier New </option>
+                <option value= "Helvetica" > Helvetica </option>
+                <option value= "Georgia" > Georgia </option>
+            
+                        </select>
+                        <br>
+                        <br>
+    <textarea rows="20" cols="50" id="text">
+We're going to make a program that looks like Microsoft Word.
+There will be one paragrah and a bunch of buttons.
+Each button will have an onclick attribute that will link to a different javascript function.   
+    </textarea>
+    </body>
+</html>
